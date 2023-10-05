@@ -1,3 +1,4 @@
+import { ToastProvider } from '@/components/providers/toaster-provider'
 import './globals.css'
 import { ClerkProvider } from '@clerk/nextjs'
 import type { Metadata } from 'next'
@@ -18,7 +19,10 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          <ToastProvider/>
+          {children}
+        </body>
       </html>
     </ClerkProvider>
   )
