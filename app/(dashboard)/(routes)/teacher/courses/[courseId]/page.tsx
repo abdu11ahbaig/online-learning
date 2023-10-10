@@ -9,7 +9,8 @@ import { CategoryForm } from "./_components/category-form";
 import { PriceForm } from "./_components/price-form";
 import { ImageForm } from "./_components/image-form";
 import { AttachmentForm } from "./_components/attachment-form";
-import { ChapterForm } from "./_components/chapters-form";
+import { ChaptersForm } from "./_components/chapters-form";
+
 
 const CourseIdPage = async ({
   params
@@ -113,7 +114,7 @@ const CourseIdPage = async ({
               />
               <h2 className="text-xl">Course chapters</h2>
             </div>
-            <ChapterForm
+            <ChaptersForm
               initialData= {course}
               courseId= {course.id}
             />
