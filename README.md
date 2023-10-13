@@ -1,3 +1,5 @@
+![Alt text](<Screenshot 2023-10-13 at 11.38.36 AM.png>)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
