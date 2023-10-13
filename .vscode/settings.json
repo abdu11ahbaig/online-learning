@@ -11,6 +11,7 @@
     "trpc",
     "unpublish",
     "utfs",
-    "videography"
+    "videography",
+    "zustand"
   ]
 }
