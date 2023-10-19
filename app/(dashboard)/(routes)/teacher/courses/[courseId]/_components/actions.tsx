@@ -47,18 +47,18 @@ export const Actions = ({
 
 
   const onDelete = async () => {
-    try{
+    try {
       setIsLoading(true);
 
       await axios.delete(`/api/courses/${courseId}`);
 
-      toast.success("Course deleted successfully 🎉");
+      toast.success("Course deleted 😊");
       router.refresh();
       router.push(`/teacher/courses`);
-    } catch{
+    } catch {
       toast.error("Something went wrong 💀");
     } finally {
-      setIsLoading(false)
+      setIsLoading(false);
     }
   }
 
